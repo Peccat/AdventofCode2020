@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFACAEDA-9C48-4C75-A210-B9EA011D64FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AdventOfCode2020</RootNamespace>
+    <AssemblyName>AdventOfCode2020</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020.Designer.cs">
+      <DependentUpon>2020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day1.Designer.cs">
+      <DependentUpon>2020_day1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day10.Designer.cs">
+      <DependentUpon>2020_day10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day11.Designer.cs">
+      <DependentUpon>2020_day11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day12.Designer.cs">
+      <DependentUpon>2020_day12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day13.Designer.cs">
+      <DependentUpon>2020_day13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day14.Designer.cs">
+      <DependentUpon>2020_day14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day15.Designer.cs">
+      <DependentUpon>2020_day15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day16.Designer.cs">
+      <DependentUpon>2020_day16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day17.Designer.cs">
+      <DependentUpon>2020_day17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day18.Designer.cs">
+      <DependentUpon>2020_day18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day19.Designer.cs">
+      <DependentUpon>2020_day19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day2.Designer.cs">
+      <DependentUpon>2020_day2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day20.Designer.cs">
+      <DependentUpon>2020_day20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day21.Designer.cs">
+      <DependentUpon>2020_day21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day22.Designer.cs">
+      <DependentUpon>2020_day22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day23.Designer.cs">
+      <DependentUpon>2020_day23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day24.Designer.cs">
+      <DependentUpon>2020_day24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day25.Designer.cs">
+      <DependentUpon>2020_day25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day3.Designer.cs">
+      <DependentUpon>2020_day3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day4.Designer.cs">
+      <DependentUpon>2020_day4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day5.Designer.cs">
+      <DependentUpon>2020_day5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day6.Designer.cs">
+      <DependentUpon>2020_day6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day7.Designer.cs">
+      <DependentUpon>2020_day7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day8.Designer.cs">
+      <DependentUpon>2020_day8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2020_day9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2020_day9.Designer.cs">
+      <DependentUpon>2020_day9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdventofCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdventofCode.Designer.cs">
+      <DependentUpon>AdventofCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AoC_story.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AoC_story.Designer.cs">
+      <DependentUpon>AoC_story.cs</DependentUpon>
+    </Compile>
+    <Compile Include="notavailable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notavailable.Designer.cs">
+      <DependentUpon>notavailable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="2020.resx">
+      <DependentUpon>2020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day1.resx">
+      <DependentUpon>2020_day1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day10.resx">
+      <DependentUpon>2020_day10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day11.resx">
+      <DependentUpon>2020_day11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day12.resx">
+      <DependentUpon>2020_day12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day13.resx">
+      <DependentUpon>2020_day13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day14.resx">
+      <DependentUpon>2020_day14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day15.resx">
+      <DependentUpon>2020_day15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day16.resx">
+      <DependentUpon>2020_day16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day17.resx">
+      <DependentUpon>2020_day17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day18.resx">
+      <DependentUpon>2020_day18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day19.resx">
+      <DependentUpon>2020_day19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day2.resx">
+      <DependentUpon>2020_day2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day20.resx">
+      <DependentUpon>2020_day20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day21.resx">
+      <DependentUpon>2020_day21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day22.resx">
+      <DependentUpon>2020_day22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day23.resx">
+      <DependentUpon>2020_day23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day24.resx">
+      <DependentUpon>2020_day24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day25.resx">
+      <DependentUpon>2020_day25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day3.resx">
+      <DependentUpon>2020_day3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day4.resx">
+      <DependentUpon>2020_day4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day5.resx">
+      <DependentUpon>2020_day5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day6.resx">
+      <DependentUpon>2020_day6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day7.resx">
+      <DependentUpon>2020_day7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day8.resx">
+      <DependentUpon>2020_day8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2020_day9.resx">
+      <DependentUpon>2020_day9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdventofCode.resx">
+      <DependentUpon>AdventofCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AoC_story.resx">
+      <DependentUpon>AoC_story.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notavailable.resx">
+      <DependentUpon>notavailable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2020_day10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day16.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day17.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day18.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day19.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day22.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day23.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day24.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day25.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2020_day9.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
